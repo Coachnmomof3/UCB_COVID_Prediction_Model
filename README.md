@@ -1,2 +1,2 @@
-# Test 1
+# UCB_COVID_Prediction_Model
 Final Project
