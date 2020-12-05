@@ -52,16 +52,16 @@ Using input of chest X-ray images of both COVID and several Non-COVID cases, we 
 This would give physicians an edge and allow them to act with more confidence while they wait for the analysis of a radiologist by having a digital second opinion confirm their assessment of a patient's condition. Also, these tools can provide quantitative scores to consider and use in studies.
  
 ## Tasks and Technologies used:
-### **STEP1: Data cleaning and analysis:**
+### **STEP 1: Data cleaning and analysis:**
 The images in the dataset are already augmented using the Augmentator Python library. We will use different methods from the imblearn python library to balance the dataset, including SMOTE, Cluster Centroid and SMOTEEN. 
 
-### **STEP2: Database Storage:**
+### **STEP 2: Database Storage:**
 Images would be stored in AWS S3 and the labels for the same in AWS RDB with PostgreSQL flavour. We will integrate Flask to display the data.
  
-### **STEP3: Applying Machine Learning Model:**
+### **STEP 3: Applying Machine Learning Model:**
 We'll be using the Tensorflow ML library to create a Multi-Class CNN classifier of different respiratory syndromes. We will try different pretrained models including VGG-16, ResNet and AlexNet and add layers at the end to adjust for our needs.
  
-### **STEP4_Dashboard: Tableau for visualization:**
+### **STEP 4: Dashboard: Tableau for visualization:**
 In addition to using a Flask template, we will integrate Tableau for a fully functioning and interactive dashboard. It will be published on the public tableau server.
  
 
