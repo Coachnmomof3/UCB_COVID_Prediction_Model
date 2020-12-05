@@ -1,6 +1,6 @@
 # Final Project: UCB_COVID_Prediction_Model
 
-# SEGMENT_1: PRESENTAION
+# SEGMENT_1: PRESENTAION: STUTI_BUDHWAR
              
 
 ## Selected Topic:                                        
@@ -59,7 +59,7 @@ The images in the dataset are already augmented using the Augmentator Python lib
 Images would be stored in AWS S3 and the labels for the same in AWS RDB with PostgreSQL flavour. We will integrate Flask to display the data.
  
 ### **STEP3: Applying Machine Learning Model:**
-We'll be using the Tensorflow ML library to create a Multi-Class CNN classifier of different respiratory syndromes. We will try different pretrained models including VGG, ResNet and AlexNet and add layers at the end to adjust for our needs.
+We'll be using the Tensorflow ML library to create a Multi-Class CNN classifier of different respiratory syndromes. We will try different pretrained models including VGG-16, ResNet and AlexNet and add layers at the end to adjust for our needs.
  
 ### **STEP4_Dashboard: Tableau for visualization:**
 In addition to using a Flask template, we will integrate Tableau for a fully functioning and interactive dashboard. It will be published on the public tableau server.
