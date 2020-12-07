@@ -23,6 +23,6 @@ I worked on the **Presentation** section and the final **README.md** for the pro
 	iv. Sample_covid_19_cases.png (Main Repository)
  	v. Sample_non_covid_19_cases.png (Main Repository)
 ### Files to refer on my repository (https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/tree/Stuti_Budhwar)
-	i. Responsibilities_Stuti_Budhwar.md (My branch)
+	i. Deliverables_Stuti_Budhwar.md (My branch)
 
 		
