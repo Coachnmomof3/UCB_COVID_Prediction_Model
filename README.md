@@ -10,6 +10,7 @@ The election of technologies and the project roadmap was largely decided on the 
 
 ## Image folder structure
 The image folder was reestructured to the following, in order to fulfill the criteria required by tensorflow's method *image_dataset_from_directory*.
+
 ![](Resources/folder_structure.png)
 
 ## Preprocessing
