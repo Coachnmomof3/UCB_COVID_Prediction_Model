@@ -1,0 +1,15 @@
+CREATE TABLE ML_output_table(
+COVID_Pred INTEGER, 
+NO_FINDING INTEGER, 
+Atelectasis_Pred INTEGER, 
+Cardiomegaly_Pred INTEGER, 
+Consolidation_Pred INTEGER, 
+Edema_Pred INTEGER, 
+Enlarged_Cardiomediastinum_Pred INTEGER, 
+Fracture_Pred INTEGER, 
+Lung_Lesion_Pred INTEGER, 
+Lung_Opacity_Pred INTEGER, 
+Pleural_Pred INTEGER, 
+Pneumonia_Pred INTEGER, 
+Pneumothorax_Pred INTEGER, 
+)
