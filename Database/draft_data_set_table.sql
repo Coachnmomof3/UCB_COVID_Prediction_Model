@@ -1,9 +1,7 @@
 draft_data_set_table.sql
 
-CREATE TABLE All_Img_Data (
-    condition varchar, 
+CREATE TABLE original_image_data (
     file_name  varchar, 
-    file_link varchar, 
-    test_train boolean, 
-    ML_Prediction INTEGER, 
+    condition_actual varchar, 
+    test_or_train varchar, 
 )
