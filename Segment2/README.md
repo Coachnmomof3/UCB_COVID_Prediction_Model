@@ -36,7 +36,7 @@ I am working on the visualizations that are not very common and bring more insig
 
 ### Files to refer on my repository (https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/tree/Stuti_Budhwar/Segment2)
 * Visualization_Storyboard_Segment_2_StutiBudhwar.ppt
-* Deliverables_Stuti_Budhwar_Segment2.md
+* README.md (For my Deliverables for Segement2)
 * AccuracyPerEpoch_Model_1_to_9.twbx (tableau Workbook)
 * Annexure_Model_Details.md
 * ML_Models_Chronological - Tableau.xlsx
