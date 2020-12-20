@@ -105,7 +105,7 @@ We decided on a 70/30 split to analyze as a team to start for this model. We use
  The first model I created is a simple SVM-inspired model to compare the pretrained models against. This week I used transfer learning to train VGG16 and added some layers at the end to adjust the output to our needs. Due to the limited capacities of my local environment, the models were trained for only 3 epochs and no difference was found between this 2 models.
 |Model     |Architecture                               |Performance                                |
 |:--------:|:-----------------------------------------:|:-----------------------------------------:|
-|Base_model|<img src="Resources/Base_model/architecture.png" alt="drawing" width="50"/> |![](Resources/Base_model/base_model1.png)  |
+|Base_model|<img src="Resources/Base_model/architecture.png" alt="drawing" width="50"/> |![](Resources/Base_model/Base_model1.png)  |
 |VGG16     |<img src="Resources/VGG16_model/architecture.png" alt="drawing" width="50"/>|![](Resources/VGG16_model/VGG16_model1.png)|
 
 ## Week 2
