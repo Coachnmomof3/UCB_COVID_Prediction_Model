@@ -98,7 +98,7 @@ val_ds=datagen2.flow_from_directory(
                 shuffle=True, 
                 seed=30)
 
-We decided on a 70/30 split to analyze as a team to start for this model. We used the function image_dataset_from_directory() then include all the rest of the inputs as needed.
+We decided on a 70/30 split to analyze as a team to start for this model. We used the function flow_from_directory() then include all the rest of the inputs as needed.
 
 # Model
 ## Week 1
