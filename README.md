@@ -172,7 +172,7 @@ go about this. After the knowledge I gained for this first deliverable, my optim
 
 
 
-**MODEL 3 **
+**MODEL 3**
 
 
 <img width="912" alt="Screen Shot 2020-12-20 at 8 31 18 AM" src="https://user-images.githubusercontent.com/67808057/102718582-cb1e6e80-429d-11eb-8f5b-3663d9532489.png">
