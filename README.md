@@ -52,7 +52,7 @@ We'll be using the Tensorflow ML library to create a Multi-Class CNN classifier 
 ### **STEP 4: Dashboard: Tableau for visualization:**
 In addition to using a Flask template, we will integrate Tableau for a fully functioning and interactive dashboard. It will be published on the public tableau server.
 
-## Communication Protocols
+## Communication Protocol
 The group agreed that meeting three times a week via Zoom would be very productive based on what was accomplished within the meetings that occurred outside of regularly scheduled classes.  We faced a challenge with one group member being in the eastern time zone for a short period of time with future travels back to Chile soon to follow.
 Prior to finalizing our meetings for the week, we check with each other to see what time works best due to the remainder of the group being flexible on their time.
 We also communicate via our group Slack. 
