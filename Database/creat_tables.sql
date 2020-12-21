@@ -1,5 +1,6 @@
 CREATE TABLE ML_output_table(
     model_no varchar, 
+    file_name varchar, 
     likelihood_covid int, 
     likelihood_pneumonia int, 
     likelihood_no_finding int, 
