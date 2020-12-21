@@ -4,29 +4,19 @@
 In this project, we present **the prediction model for various COVID-19 and non-COVID medical conditions from frontal chest X-ray of the patients**. The need to streamline patient management for both COVID-19 and non-Covid conditions has become more pressing than ever. Chest X-rays provide a non-invasive (potentially bedside) tool to monitor the progression of the disease. Such a tool can gauge severity of the lung infections for these diseases that can be used for escalation or de-escalation of care as well as monitoring treatment efficacy, especially in the ICU.
 
 As the world grapples with multiple medical conditions, especially COVID-19, every ounce of technological innovation and ingenuity harnessed to fight this pandemic and other infections brings us one step closer to overcoming it. Artificial intelligence and machine learning are playing a key role in better understanding and addressing, especially the COVID-19 crisis. Machine learning technology enables computers to mimic human intelligence and ingest large volumes of data to quickly identify patterns and insights.
-In the fight against these critical medical conditions, organizations have been quick to apply their machine learning expertise in several areas: scaling customer communications, understanding how they spread, and speeding up research and treatment. In this scenario, it is both relevant and useful to understand chest X-ray images to understand and develop an AI-based approach to predict and understand both COVID-19 and non Covid-19 diseases.
- 
+In the fight against these critical medical conditions, organizations have been quick to apply their machine learning expertise in several areas: scaling customer communications, understanding how they spread, and speeding up research and treatment. In this scenario, it is both relevant and useful to gain the knowledge of chest X-ray images to interpret and develop an AI-based approach to predict and recognize both COVID-19 and non Covid-19 diseases..
+ï¿½
 ## Description of the source of data:
-This is a labelled datset of 5000 frontal chest X-ray images of COVID and non-COVID cases. The non-COVID cases are as follows: 
- * Atelectasis
- * Cardiomegaly
- * Consolidation 
- * Edema
- * Enlarged Cardiomediastinum
- * Fracture
- * Lung Lesion
- * Lung Opacity
- * Pleural
- * Pneumonia
- * Pneumothorax
+This is a labelled datset of 3184 frontal chest X-ray images of COVID and non-COVID cases. The non-COVID case is a Viral Pneumonia.
  
-The complete dataset of 5000 images can be found at the following dropbox link: (https://www.dropbox.com/s/09b5nutjxotmftm/data_upload_v2.zip?dl=0)
+The complete dataset of 3184 images can be found at the following dropbox link: (https://www.dropbox.com/s/09b5nutjxotmftm/data_upload_v2.zip?dl=0)
 
 The 2 sources used to create this data set are:
 * Covid-Chestxray-Dataset, for COVID-19 X-ray samples
 	(https://github.com/ieee8023/covid-chestxray-dataset)
 * ChexPert Dataset, for Non-COVID samples
-	(https://stanfordmlgroup.github.io/competitions/chexpert)
+	https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
+
 	
 These COVID-19 samples from Covid-Chestxray-Dataset are extracted from several publications. Only the posterior-anterior images have been used for the dataset. Also, the X-ray images of COVID-19 samples have been verified by board-certified radiologist for the credibility of dataset. It has been tried to uniformly sample images from ChexPert for Non-COVID samples.
 
@@ -43,21 +33,28 @@ The sample chest images of a COVID and Non-COVID case is as below:
 
 #### Sample Chest X-rays for Non-COVID-19 cases
 
-## Ananlysis:	
-Using input of chest X-ray images of both COVID and several Non-COVID cases, we intend to predict if the patient has that particular COVID or Non-COVID (Atelectasis, Cardiomegaly, Consolidation, Edema, Enlarged Cardiomediastinum, Fracture, Lung Lesion, Lung Opacity, Pleural, Pneumonia and Pneumothorax or no finding at all) medical conditions.
+## Analysis:	
+Using input of chest X-ray images of both COVID and several Non-COVID cases, we intend to predict if the patient has that particular COVID or Non-COVID (COVID-19, Viral Pneumonia or normal/no finding at all) medical conditions.
 This would give physicians an edge and allow them to act with more confidence while they wait for the analysis of a radiologist by having a digital second opinion confirm their assessment of a patient's condition. Also, these tools can provide quantitative scores to consider and use in studies.
- 
+ï¿½
 ## Tasks and Technologies used:
 ### **STEP 1: Data cleaning and analysis:**
 The images in the dataset are already augmented using the Augmentator Python library. We will use different methods from the imblearn python library to balance the dataset, including SMOTE, Cluster Centroid and SMOTEEN.
 
 ### **STEP 2: Database Storage:**
-Images would be stored in AWS S3 and the labels for the same in AWS RDB with PostgreSQL flavour. We will integrate Flask to display the data.
+*This pending finalization of storage container due to functionality and compatibility.
+
+Images are stored on local computers. There were 3 options tested prior to this using local computer created very slow run times. 
 
 ### **STEP 3: Applying Machine Learning Model:**
 We'll be using the Tensorflow ML library to create a Multi-Class CNN classifier of different respiratory syndromes. We will try different pretrained models including VGG16, VGG19, ResNet18, ResNet50, SqueezeNet, DenseNet-121 and add layers at the end to adjust for our needs.
- 
+ï¿½
 ### **STEP 4: Dashboard: Tableau for visualization:**
 In addition to using a Flask template, we will integrate Tableau for a fully functioning and interactive dashboard. It will be published on the public tableau server.
+
+## Communication Protocols
+The group agreed that meeting three times a week via Zoom would be very productive based on what was accomplished within the meetings that occurred outside of regularly scheduled classes.  We faced a challenge with one group member being in the eastern time zone for a short period of time with future travels back to Chile soon to follow.
+Prior to finalizing our meetings for the week, we check with each other to see what time works best due to the remainder of the group being flexible on their time.
+We also communicate via our group Slack. 
 
 
