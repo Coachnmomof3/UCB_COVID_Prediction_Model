@@ -21,7 +21,6 @@ The 2 sources used to create this data set are:
 These COVID-19 samples from Covid-Chestxray-Dataset are extracted from several publications. Only the posterior-anterior images have been used for the dataset. Also, the X-ray images of COVID-19 samples have been verified by board-certified radiologist for the credibility of dataset. It has been tried to uniformly sample images from ChexPert for Non-COVID samples.
 
 The folder Structure of the dataset as shown below. We would be changing the structure as part of cleaning the data if required:
-![Folder_Structure_Of_Dataset](/Folder_Structure_Of_Dataset.png)
 
 The sample chest images of a COVID and Non-COVID case is as below:
 
