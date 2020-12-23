@@ -38,6 +38,7 @@ Using input of chest X-ray images of both COVID and several Non-COVID cases, we 
 This would give physicians an edge and allow them to act with more confidence while they wait for the analysis of a radiologist by having a digital second opinion confirm their assessment of a patient's condition. Also, these tools can provide quantitative scores to consider and use in studies.
 �
 ## Tasks and Technologies used:
+
 ### **STEP 1: Data cleaning and analysis:**
 The images in the dataset are already augmented using the Augmentator Python library. We will use different methods from the imblearn python library to balance the dataset, including SMOTE, Cluster Centroid and SMOTEEN.
 
