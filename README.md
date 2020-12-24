@@ -4,10 +4,10 @@
 In this project, we present **the prediction model for various COVID-19 and non-COVID medical conditions from frontal chest X-ray of the patients**. The need to streamline patient management for both COVID-19 and non-Covid conditions has become more pressing than ever. Chest X-rays provide a non-invasive (potentially bedside) tool to monitor the progression of the disease. Such a tool can gauge severity of the lung infections for these diseases that can be used for escalation or de-escalation of care as well as monitoring treatment efficacy, especially in the ICU.
 
 As the world grapples with multiple medical conditions, especially COVID-19, every ounce of technological innovation and ingenuity harnessed to fight this pandemic and other infections brings us one step closer to overcoming it. Artificial intelligence and machine learning are playing a key role in better understanding and addressing, especially the COVID-19 crisis. Machine learning technology enables computers to mimic human intelligence and ingest large volumes of data to quickly identify patterns and insights.
-In the fight against these critical medical conditions, organizations have been quick to apply their machine learning expertise in several areas: scaling customer communications, understanding how they spread, and speeding up research and treatment. In this scenario, it is both relevant and useful to gain the knowledge of chest X-ray images to interpret and develop an AI-based approach to predict and recognize both COVID-19 and non Covid-19 diseases..
+In the fight against these critical medical conditions, organizations have been quick to apply their machine learning expertise in several areas: scaling customer communications, understanding how they spread, and speeding up research and treatment. In this scenario, it is both relevant and useful to gain the knowledge of chest X-ray images to interpret and develop an AI-based approach to predict and recognize both COVID-19 and non Covid-19 diseases.
 �
 ## Description of the source of data:
-This is a labelled datset of 3184 frontal chest X-ray images of COVID and non-COVID cases. The non-COVID case is a Viral Pneumonia.
+This labeled datset consist of 3184 frontal chest X-ray images of COVID and non-COVID cases. The non-COVID case is a Viral Pneumonia.
  
 The complete dataset of 3184 images can be found at the following dropbox link: (https://www.dropbox.com/s/09b5nutjxotmftm/data_upload_v2.zip?dl=0)
 
@@ -20,7 +20,7 @@ The 2 sources used to create this data set are:
 	
 These COVID-19 samples from Covid-Chestxray-Dataset are extracted from several publications. Only the posterior-anterior images have been used for the dataset. Also, the X-ray images of COVID-19 samples have been verified by board-certified radiologist for the credibility of dataset. It has been tried to uniformly sample images from ChexPert for Non-COVID samples.
 
-The folder Structure of the dataset as shown below. We would be changing the structure as part of cleaning the data if required:
+The folder Structure of the dataset would be changing the structure as part of cleaning the data if required:
 
 The sample chest images of a COVID and Non-COVID case is as below:
 
