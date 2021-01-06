@@ -22,6 +22,9 @@ These COVID-19 samples from Covid-Chestxray-Dataset are extracted from several p
 
 The folder Structure of the dataset would be changing the structure as part of cleaning the data if required:
 
+* Current Folder Structure
+![folderstructure](https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/blob/main/Folder_Structure_New_Dataset.png)
+
 The sample chest images of a COVID and Non-COVID case is as below:
 
 ![Sample_covid_19_cases](/Sample_covid_19_cases.png)
