@@ -32,6 +32,9 @@ I tried using Amazons SageMaker which is supposed to be optimized for Machine Le
 **OUR NEW DATASET:**
 - COVID-19 Radiography Database, https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
 
+### Week 3 and 4 
+We are still using this dataset as for the final model. We have not made any further changes to this.
+
 # Feature Engineering 
 ### Week 1
 This first model I created is just and initial test to make sure our data and images were being imported. This is an image dataset so the features are just the images from the dataset. 
@@ -51,12 +54,14 @@ These are the following classes with the number of photos in total:
 - Pleural_Other                   99
 
 
-### Week 2 
+### Week 2/3/4
 With our new Dataset, and from our models we have made in the past we have determined that we did not have enough photos for the neural network to learn. I decided to only have three classes with more photos more ability of the neural network to learn. 
 These are the following classes with the number of photos in total: 
   - Covid images: 1327
   - Normal images: 1341
   - Viral_Pneumonia: 1463
+
+
 
 # Training and Testing Split 
 
@@ -126,6 +131,49 @@ datagen2=ImageDataGenerator(rescale=1/255,validation_split=.3,
                 
 I decided on a 70/30 split to analyze as a team to start for this model. We used the function image_dataset_from_directory() then include all the rest of the inputs as needed.I began to use photo augemntation for training to use as a class balancer for the neural network to learn. You can look at what inputs I did with the ImageDataGenerator()
 
+### Week 3/4/
+
+Code for Training and Testing:
+
+batch_size=128
+
+data_dir = "Database/"
+
+**rescale images**
+
+
+datagen= ImageDataGenerator(rescale=1/255,validation_split=.3,rotation_range=20,
+                           shear_range=.2,width_shift_range=0.1,height_shift_range=0.1,zoom_range=0.2,
+                           preprocessing_function=preprocess_input)
+
+
+
+
+**train_generator**= datagen.flow_from_directory(
+                data_dir,
+                target_size=(200,200),
+                batch_size=batch_size,
+                subset="training",
+                class_mode="categorical", 
+                classes= ["COVID19", "NORMAL","Viral_Pneumonia"],
+                shuffle=True, seed=30)
+
+
+datagen2=ImageDataGenerator(rescale=1/255,validation_split=.3,
+                            preprocessing_function=preprocess_input)
+
+
+
+
+**test_generator**=datagen2.flow_from_directory(
+                data_dir,
+                target_size=(200,200),
+                batch_size=batch_size,
+                classes= ["COVID19", "NORMAL","Viral_Pneumonia"],
+                class_mode="categorical", subset="validation", shuffle=True, seed=30)
+                
+I decided on a 70/30 split to analyze as a team to start for this model. We used the function image_dataset_from_directory() then include all the rest of the inputs as needed.I began to use photo augemntation for training to use as a class balancer for the neural network to learn. You can look at what inputs I did with the ImageDataGenerator().
+
 
 # Model
 
@@ -144,6 +192,17 @@ I began by making three base models by my own creation which kept improving over
 Unsatisfied by my results from my base models, I tried to build on top of what I had already made. From the precious weeks I stated that I would use transfer learning to improve its accuracy scores and that I have done drastically! I began with VGG16 transfer learning model pretrained for image datasets. On top of the VGG16 Model I added another dense layer for the number of classes and flattened the images. I ran this model at 100 epochs then after I determined it could be improved with more runtime I set it at 200 epochs and the scores did improve as predicted! I will be going forward with VGG16 and going to be training this model more by adding more layers to this neural network for future deliverables.
 
 My second transfer learning model was the ResNet50 model which gave me the best results so far out of all my models. I did the same with ResNet where i only added a Dense layer with the number of classes and to flatten the images. This transfer learning compared to VGG16 preformed better but its runtime was very long which brings me hesitation to train in the future. I ran this model at 50 epochs and 100 epochs which did improve the results. 
+
+### Week 3/4 
+
+**Base Models**
+I began by making one base model by my own creation which kept improving over time. This base model I made was 5 layers but this time I used increasing neurons from 16, 32, 64, 128, back to 64 then I finished off with a flatten and the dense layers with the classes. These base models we not learning as a proper machine learning algorithm due to the fact that our training set had a lower accuracy than our validation. This means that our model was underfitted so we did not pursure these in spite of the great scores. 
+
+**Transfer Learning Models**
+Unsatisfied by my results from my base models, I tried to build on top of what I had already made. I began with VGG16 transfer learning model pretrained for image datasets. On top of the VGG16 Model I added another dense layer for the number of classes and flattened the images.WE continued by using various drouputs functions on VGG16 and adding more complexity but we still saw no improvement in our scores. But it seemed that the best results for these models was to keep it simple and barely add anything to it and just add the Dense layer with the class names.
+
+
+My second transfer learning model was the ResNet50 model gave similar results so far out of all my models. I did the same with ResNet where i only added a Dense layer with the number of classes and to flatten the images. We again added more complexity just as with VGG16 but again we saw little improvement on these models so we decided to keep it simple because it was giving the best results.
 
 # Results
 
@@ -205,8 +264,38 @@ At 100 epochs
 
 <img width="934" alt="Screen Shot 2020-12-20 at 8 32 42 AM" src="https://user-images.githubusercontent.com/67808057/102718626-f739ef80-429d-11eb-9d59-c1392d6a9426.png">
 
+### Week 3/4 
 
+**BASE_MODEL SCORES** 
 
+Training:
+        Loss=0.1841008216
+        Accuracy=0.9359369874
+         
+Validation:
+        Loss=0.1820759922
+        Accuracy=0.9359999895
+        
+**VGG_16 MODEL**
 
+Training:
+        Loss=0.1469199546
+        Accuracy=0.9499760199
+         
+Validation:
+        Loss=0.3281681743
+        Accuracy=0.8802880001
+        
+**ResNet MODEL**
 
-
+Training:
+        Loss=0.4442575076
+        Accuracy=0.8325042823
+         
+Validation:
+        Loss=0.4181249711
+        Accuracy=0.8417360008
+        
+        
+        
+ We are still doing our analysis on which model to chose as our final but with this imformation it seems as though VGG_16 has the best results and will be continuing with this in the future!
