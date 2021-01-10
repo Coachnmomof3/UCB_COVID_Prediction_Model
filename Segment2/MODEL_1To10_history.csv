@@ -1,4 +1,4 @@
-Model No,Basic Model Name,Epochs,loss,categorical_accuracy,val_loss,val_categorical_accuracy
+Model_No,Basic_Model_Name,Epochs,loss,categorical_accuracy,val_loss,val_categorical_accuracy
 MODEL1,Basic Model-A,0,1.453449726,0.589873433,2.648942232,0.552083313
 MODEL1,Basic Model-A,1,0.566376209,0.780108511,5.386453629,0.317708343
 MODEL1,Basic Model-A,2,0.459603071,0.821338177,8.384958267,0.322048604
