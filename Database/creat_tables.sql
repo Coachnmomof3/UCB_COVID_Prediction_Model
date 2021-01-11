@@ -1,10 +1,11 @@
-CREATE TABLE ML_output_table(
-    model_no varchar, 
-    file_name varchar, 
-    likelihood_covid int, 
-    likelihood_pneumonia int, 
-    likelihood_no_finding int, 
-)
+CREATE TABLE ML_model_history(
+    model_no varchar,
+    Basic_Model_Name varchar,
+    Epochs intloss float,
+    categorical_accuracy float, 
+    val_loss float, 
+    val_vategorical_accuracy float 
+);
 
 CREATE TABLE original_image_data (
     file_name  varchar, 
