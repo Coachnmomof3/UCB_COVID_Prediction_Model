@@ -1,10 +1,10 @@
 CREATE TABLE ML_model_history(
     model_no varchar,
     Basic_Model_Name varchar,
-    Epochs intloss float,
-    categorical_accuracy float, 
-    val_loss float, 
-    val_vategorical_accuracy float 
+    Epochs intloss numeric,
+    categorical_accuracy numeric, 
+    val_loss numeric, 
+    val_vategorical_accuracy numeric 
 );
 
 CREATE TABLE original_image_data (
