@@ -26,3 +26,6 @@
 
 ## Model 9: Resnet-B
 ![Model9_Details](Model9_Details.png)
+
+## Model 10: Resnet-
+![Model10_Details](Model10_Details.png)
