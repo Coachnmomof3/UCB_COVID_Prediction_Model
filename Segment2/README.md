@@ -17,6 +17,7 @@ Please refer to the link references  in the Visualization_Storyboard_Segment_3_S
 (OR https://docs.google.com/presentation/d/1fjnWUSLiMrl_0gzWNO2InxxaD4TuGQT3/edit#slide=id.p47)
 * Covid_Prediction_Model_Dashboard.twbx(tableau Workbook)
 * README.md
+* Dashboard slides.pdf (pdf for tableau dashboard and story)
 * MODEL_1To10_history.csv
 * Annexure_Model_Details.md
 * ML_Models_Chronological - Tableau.xlsx
