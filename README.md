@@ -30,9 +30,9 @@ The Presenation initially started as a role that was assigned to a teammate taki
 - ### Machine Learning Model - Bijan Samimi
 We are still using this dataset as for the final model. We have not made any further changes to this. With our new Dataset, and from our models we have made in the past we have determined that we did not have enough photos for the neural network to learn. I decided to only have three classes with more photos more ability of the neural network to learn. 
 These are the following classes with the number of photos in total: 
-  - Covid images: 1327
-  - Normal images: 1341
-  - Viral_Pneumonia: 1463
+   - Covid images: 1327
+   - Normal images: 1341
+   - Viral_Pneumonia: 1463
 Code for Training and Testing:
 
 batch_size=128
@@ -165,13 +165,17 @@ After trying many data augmentation combinations, different architectures and tr
 - ### Database -James De Mott - No requirement for Deliverable 3
 
 - ### Dashboard - Stuti Budwar
-* Detailed and meticulous performance analysis of each machine learning model in terms of loss and accuracy. The models included 4 basic models, 3 pretrained VGG16 models and 3 pretrained Resnet-50 Models.
-* Finalized on the the visualizations starting from begining to the Final Dashboard. Although I will be working on bringing a few charts on 1 tableau workbook which are now in two of them.
-* Worked on the interactive elements of the dashboard
+  * Detailed and meticulous performance analysis of each machine
+learning model in terms of loss and accuracy. The models included 4 basic models, 3 pretrained VGG16 models and 3 pretrained Resnet-50 Models.
+  * Finalized on the the visualizations starting from begining to the
+Final Dashboard. Although I will be working on bringing a few charts on 1 tableau workbook which are now in two of them.
+  * Worked on the interactive elements of the dashboard
 This included some reasearch to go beyond the regular interactive elements of tooltip, highlighting and using filters to using advanced ones like animations.
-* Prepared the Dashboard and Story in Tableau for the purpose of analysis, visulalization and concluding our results. Please refer the following tableau public link for Main Dahshboard and stories and other visualizations: (https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_Dashboard/ACCURACY?publish=yes)
-* Visualizing every model in chronological order for 'Loss per Epoch', 'Accuracy per Epoch' using Tableau animation.
+  * Prepared the Dashboard and Story in Tableau for the purpose of
+analysis, visulalization and concluding our results. Please refer the following tableau public link for Main Dahshboard and stories and other visualizations: (https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_Dashboard/ACCURACY?publish=yes)
+  * Visualizing every model in chronological order for 'Loss per Epoch', 'Accuracy per Epoch' using Tableau animation.
 Please visit the link refernces for each model in the Visualization_Storyboard_Segment_3_StutiBudhwar.ppt, click Model No. and press play button to see the animated trail of 'Loss and Accuracy per Epoch' for all of the models.
-* Comparative analysis and conclusion of ML strategy and models in chronological order.
+  * Comparative analysis and conclusion of ML strategy and models in chronological order.
 Please refer to the link references  in the Visualization_Storyboard_Segment_3_StutiBudhwar.ppt.
-* Prepared a draft of the final presentation and final Dashboard for the purpose of presentation.
+  * Prepared a draft of the final presentation and final Dashboard for
+the purpose of presentation.
