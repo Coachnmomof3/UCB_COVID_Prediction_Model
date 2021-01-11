@@ -24,7 +24,7 @@ I've been successful with the challenge of being dual hatted knowing that my att
 
 ## Roles explanation and description
 
-### -- Presentation 
+### - Presentation 
 The Presenation initially started as a role that was assigned to a teammate taking on multipule roles. It has become a role that each teammate would take on when their primary tasking did not require a deliverable. The team has now established that we would all work together to in a collaborative effort to finalize the finished product.
 
 ### * Machine Learning Model - Bijan Samimi
