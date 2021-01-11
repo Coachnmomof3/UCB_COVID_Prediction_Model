@@ -1,7 +1,7 @@
 CREATE TABLE ML_model_history(
     model_no varchar,
     Basic_Model_Name varchar,
-    Epochs int
+    Epochs int, 
     loss numeric,
     categorical_accuracy numeric, 
     val_loss numeric, 
