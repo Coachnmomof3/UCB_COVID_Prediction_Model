@@ -18,7 +18,7 @@ CREATE Table original_image_record (
   Epochs int, 
   loss int, 
   val_loss int, 
-  val_categorical_accuracy int
+  val_accuracy int
 ); 
 
 
@@ -29,3 +29,4 @@ prdecited_likelihood_covid numeric,
 prdecited_likelihood_pneumonia numeric,
 prdecited_likelihood_no_finding numeric
 	); 
+
