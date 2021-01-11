@@ -25,6 +25,9 @@ This week I imported the images database from my teammate Bijan Samimi. He rearr
 First, I tried using my local environments, but could not make my GPU work with Tensorflow. Then I uploaded the files to an AWS S3 bucket to use with Sagemaker, but I ran out of the free tier storage capacity very quickly, so I connected our github to a Sagemaker jupyter notebook, but it took too long to train the models. After that, I tried Kaggle's notebooks but it still took too long to train. Finally, I opted for a combination of google drive for storage and google colab for training.
 Using a CPU did not help and just changing the environment configuration to GPU did not make the GPU train the models. It took me a day to realize that in order to use the GPU I needed to run the models inside a *with tf.device('/device:GPU:0'):* block.
 
+## Week 3 and 4
+We keep using the same dataset and training using Google Colab.
+
 # Feauture Engineering
 ## Week 1
 The complete dataset of 5000 images can be found at the following dropbox link: (https://www.dropbox.com/s/09b5nutjxotmftm/data_upload_v2.zip?dl=0)
@@ -56,6 +59,9 @@ These are the number of images per class:
 - Normal images: 1341
 - Viral_Pneumonia: 1463
 
+## Week 3 and 4
+Different images sizes and data augmentation parameters were tried to obtain a better result, but it did not work out.
+
 # Training and Testing Split 
 ## Week 1
 Code for training:
@@ -66,7 +72,7 @@ val_ds = tf.keras.preprocessing.image_dataset_from_directory( data_dir, validati
 
 We decided on a 80/20 split to analyze as a team to start for this model. We used the function image_dataset_from_directory() then include all the rest of the inputs as needed.
 
-## Week 2
+## Week 2, 3 and 4
 Code for training:
 
 data_dir = "Database/"
@@ -116,6 +122,13 @@ This week, thanks to the ability to run the models in Google Colab's GPU environ
 |VGG16     |![](Resources/VGG16_model/architecture.png)   |![](Resources/VGG16_model/score.png)   |![](Resources/VGG16_model/conf.png) |
 |ResNet50|![](Resources/ResNet50_model/architecture.png)|![](Resources/ResNet50_model/score.png)|![](Resources/ResNet50_model/conf.png)|
 
+## Week 3 and 4
+Two more models were trained, a simplified version of the previous ResNet50, and a VGG16 with a dropout layer to reduce overfitting.
+|Model     |Architecture                                  |Performance                            | Confusion Matrix                   |
+|:--------:|:--------------------------------------------:|:-------------------------------------:|:----------------------------------:|
+|VGG16 2 |![](Resources/VGG16_model2/architecture.png)  |![](Resources/VGG16_model2/score.png)    |![](Resources/VGG16_model2/conf.png)|
+|ResNet50|![](Resources/ResNet50_model2/architecture.png)|![](Resources/ResNet50_model2/score.png)|![](Resources/ResNet50_model2/conf.png)|
+
 # Results
 ## Week 1
 As can be seen, I got terrible results for this models, so we decided that for the next weeks we will be working on improving the dataset and optimizing the models to obtain better results.
@@ -125,3 +138,5 @@ This models are just the beggining and sets us on a good path towards developing
 This week we saw a huge improvement in the model's performance, mostly because of the new dataset we generated. Reducing the number of classes to predict from 14 to 3 was a great move and complementing with images from other datasets helped a lot.
 The most important insight is provided by the confusion matrix which shows that all the models are misclassifying Viral_Pneumonia more than any other class. The next step should be to increase the models' complexity and improve on feature engineering.
 
+## Week 3 and 4
+After trying many data augmentation combinations and different architectures, the model with the most promise is the VGG16 model without a Dropout layer.
