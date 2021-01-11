@@ -27,10 +27,10 @@ I've been successful with the challenge of being dual hatted knowing that my att
 ### Presentation 
 The Presenation initially started as a role that was assigned to a teammate taking on multipule roles. It has become a role that each teammate would take on when their primary tasking did not require a deliverable. The team has now established that we would all work together to in a collaborative effort to finalize the finished product.
 
-* ### Machine Learning Model - Bijan Samimi
+- ### Machine Learning Model - Bijan Samimi
 We are still using this dataset as for the final model. We have not made any further changes to this. With our new Dataset, and from our models we have made in the past we have determined that we did not have enough photos for the neural network to learn. I decided to only have three classes with more photos more ability of the neural network to learn. 
 These are the following classes with the number of photos in total: 
-*   * Covid images: 1327
+   - Covid images: 1327
    * Normal images: 1341
    * Viral_Pneumonia: 1463
 Code for Training and Testing:
