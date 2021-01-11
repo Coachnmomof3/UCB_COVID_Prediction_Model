@@ -11,7 +11,7 @@ Please visit the link refernces for each model in the Visualization_Storyboard_S
 Please refer to the link references  in the Visualization_Storyboard_Segment_3_StutiBudhwar.ppt.
 * Prepared a draft of the final presentation and final Dashboard for the purpose of presentation.
 
-## Files to refer on my repository (https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/tree/Stuti_Budhwar/Segment2)
+### Files to refer on my repository (https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/tree/Stuti_Budhwar/Segment2)
 * Visualization_Storyboard_Segment_3_StutiBudhwar.ppt
 (OR Visualization_Storyboard_Segment_3_StutiBudhwar.pdf)
 (OR https://docs.google.com/presentation/d/1fjnWUSLiMrl_0gzWNO2InxxaD4TuGQT3/edit#slide=id.p47)
@@ -25,11 +25,11 @@ Please refer to the link references  in the Visualization_Storyboard_Segment_3_S
 ### Tableau public links to refer:
  
 * https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_Dashboard/ACCURACY?publish=yes
-*https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_New_Dataset_Medical_Conditions_Count/Medical_Conditions_Count?publish=yes
-*https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_New_Dataset_Covid_vs_NonCovid_Count/CovidVsNonCovid?publish=yes
-*https://public.tableau.com/profile/stuti.budhwar#!/vizhome/LossPerEpoch_Model_1_to_9/MODEL1-Loss?publish=yes
-*https://public.tableau.com/profile/stuti.budhwar#!/vizhome/AccuracyPerEpoch_Model_1_to_9/MODEL1-Accuracy?publish=yes
-*https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Loss_from_Model1_to_Model9/Loss-Model1to9?publish=yes
-*https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Accuracy_from_Model1_to_Model9/Accuracy-Model1to9?publish=yes
+* https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_New_Dataset_Medical_Conditions_Count/Medical_Conditions_Count?publish=yes
+* https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_New_Dataset_Covid_vs_NonCovid_Count/CovidVsNonCovid?publish=yes
+* https://public.tableau.com/profile/stuti.budhwar#!/vizhome/LossPerEpoch_Model_1_to_9/MODEL1-Loss?publish=yes
+* https://public.tableau.com/profile/stuti.budhwar#!/vizhome/AccuracyPerEpoch_Model_1_to_9/MODEL1-Accuracy?publish=yes
+* https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Loss_from_Model1_to_Model9/Loss-Model1to9?publish=yes
+* https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Accuracy_from_Model1_to_Model9/Accuracy-Model1to9?publish=yes
 
 
