@@ -27,7 +27,7 @@ I've been successful with the challenge of being dual hatted knowing that my att
 - ### Presentation 
 The Presenation initially started as a role that was assigned to a teammate taking on multipule roles. It has become a role that each teammate would take on when their primary tasking did not require a deliverable. The team has now established that we would all work together to in a collaborative effort to finalize the finished product.
 
-### * Machine Learning Model - Bijan Samimi
+- ### Machine Learning Model - Bijan Samimi
 We are still using this dataset as for the final model. We have not made any further changes to this. With our new Dataset, and from our models we have made in the past we have determined that we did not have enough photos for the neural network to learn. I decided to only have three classes with more photos more ability of the neural network to learn. 
 These are the following classes with the number of photos in total: 
   - Covid images: 1327
@@ -108,7 +108,7 @@ Validation:
         Loss=0.4181249711
         Accuracy=0.8417360008
 
-### * Machine Learning Model - Gabriel Cuchacovich
+- ### Machine Learning Model - Gabriel Cuchacovich
 We keep using the same dataset and training using Google Colab. Different images sizes and data augmentation parameters were tried to obtain a better result, but it did not work out. Code for training:
 
 data_dir = "Database/" Rescale images datagen= ImageDataGenerator(rescale=1/255,validation_split=.3,rotation_range=20, shear_range=.2,width_shift_range=0.1,height_shift_range=0.1,zoom_range=0.2)
@@ -162,9 +162,9 @@ Two more models were trained, a simplified version of the previous ResNet50, and
 
 After trying many data augmentation combinations, different architectures and training the models for 100 epochs instead of 50, we did not get better scores, but we had a big breakthrough in understanding why the accuracy was not improving. The likelihood of each column represent different classes for each model. For example, for the VGG16_model the labels for each column are COVID-19, Viral_Pneumonia and NORMAL while for the ResNet50, they are COVID-19, NORMAL and Viral_Pneumonia. Another important aspect is the fact that the validation accuracy score fluctuates randomly during the training. This is due to the class ratio between the validation minibatches. Meaning that if a validation batch has a higher ratio of a missclassified class, the validation accuracy score will decrease. So after about 11 to 14 epochs, the validation score was not improving, even though the training score was. For future iterations, we should try unfreezing the last layers of the transfer learning models.
 
-### Database -James De Mott - No requirement for Deliverable 3
+- ### Database -James De Mott - No requirement for Deliverable 3
 
-### * Dashboard - Stuti Budwar
+- ### Dashboard - Stuti Budwar
 * Detailed and meticulous performance analysis of each machine learning model in terms of loss and accuracy. The models included 4 basic models, 3 pretrained VGG16 models and 3 pretrained Resnet-50 Models.
 * Finalized on the the visualizations starting from begining to the Final Dashboard. Although I will be working on bringing a few charts on 1 tableau workbook which are now in two of them.
 * Worked on the interactive elements of the dashboard
