@@ -1,0 +1,11 @@
+Model_No,Basic_Model_Name,Type
+MODEL1,Basic Model-A,Basic
+MODEL2,Basic Model-B,Basic
+MODEL3,Basic Model-C,Basic
+MODEL4,Basic Model-D,Basic
+MODEL5,VGG-16-A,Pretrained
+MODEL6,VGG-16-B,Pretrained
+MODEL7,VGG-16-C,Pretrained
+MODEL8,Resnet50-A,Pretrained
+MODEL9,Resnet50-B,Pretrained
+MODEL10,Resnet50-C,Pretrained
