@@ -1,0 +1,11 @@
+file_name,prdecited_covid,prdecited_normal,prdecited_predicted_no_finding
+COVID-19 (12).png,1,0,0
+COVID-19 (266).png,1,0,0
+COVID-19 (1).png,1,0,0
+COVID-19 (2).png,0,0,1
+NORMAL (2).png,0,1,0
+NORMAL (3).png,0,1,0
+NORMAL (4).png,0,1,0
+Viral_Pneumonia (540).png,0,1,0
+Viral_Pneumonia (541).png,0,0,1
+Viral_Pneumonia (542).png,0,1,0
