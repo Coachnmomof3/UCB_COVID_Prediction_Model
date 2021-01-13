@@ -14,7 +14,7 @@ Please refer to the link references  in the Visualization_Storyboard_Segment_3_S
 ### Files to refer on my repository (https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/tree/Stuti_Budhwar/Segment2)
 * Visualization_Storyboard_Segment_3_StutiBudhwar.ppt
 (OR Visualization_Storyboard_Segment_3_StutiBudhwar.pdf)
-(OR https://docs.google.com/presentation/d/1fjnWUSLiMrl_0gzWNO2InxxaD4TuGQT3/edit#slide=id.p47)
+(OR https://docs.google.com/presentation/d/1fjnWUSLiMrl_0gzWNO2InxxaD4TuGQT3/edit#slide=id.p51)
 * Covid_Prediction_Model_Dashboard.twbx(tableau Workbook)
 * README.md
 * Dashboard slides.pdf (pdf for tableau dashboard and story)
