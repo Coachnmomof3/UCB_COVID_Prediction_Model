@@ -14,7 +14,7 @@ Please refer to the link references  in the Visualization_Storyboard_Segment_3_S
 ### Files to refer on my repository (https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/tree/Stuti_Budhwar/Segment2)
 * Visualization_Storyboard_Segment_3_StutiBudhwar.ppt
 (OR Visualization_Storyboard_Segment_3_StutiBudhwar.pdf)
-(OR https://docs.google.com/presentation/d/1fjnWUSLiMrl_0gzWNO2InxxaD4TuGQT3/edit#slide=id.p51)
+(OR https://docs.google.com/presentation/d/1fjnWUSLiMrl_0gzWNO2InxxaD4TuGQT3/edit#slide=id.p47)
 * Covid_Prediction_Model_Dashboard.twbx(tableau Workbook)
 * README.md
 * Dashboard slides.pdf (pdf for tableau dashboard and story)
@@ -25,6 +25,10 @@ Please refer to the link references  in the Visualization_Storyboard_Segment_3_S
 ### Tableau public links to refer:
  
 * https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_Dashboard/ACCURACY?publish=yes
+* https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_Dashboard/Model_Loss
+* https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_Dashboard/AccuracyLoss-Model1to10
+* https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_Dashboard/AccuracyLoss-Model1to10
+* https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_Dashboard/STORY-Covid_Prediction_Model   (for Tableau Story)
 * https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_New_Dataset_Medical_Conditions_Count/Medical_Conditions_Count?publish=yes
 * https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_New_Dataset_Covid_vs_NonCovid_Count/CovidVsNonCovid?publish=yes
 
