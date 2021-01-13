@@ -127,7 +127,7 @@ Two more models were trained, a simplified version of the previous ResNet50, and
 |Model     |Architecture                                  |Performance                            | Confusion Matrix                   |
 |:--------:|:--------------------------------------------:|:-------------------------------------:|:----------------------------------:|
 |VGG16 2 |![](Resources/VGG16_model2/architecture.png)  |![](Resources/VGG16_model2/score.png)    |![](Resources/VGG16_model2/conf.png)|
-|ResNet50|![](Resources/ResNet50_model2/architecture.png)|![](Resources/ResNet50_model2/score.png)|![](Resources/ResNet50_model2/conf.png)|
+|ResNet50|![](Resources/ResNet50_model2/architecture.png)|![](Resources/ResNet50_model2/score.png)|![](Resources/ResNet50_model2/conf.png)| 
 
 # Results
 ## Week 1
