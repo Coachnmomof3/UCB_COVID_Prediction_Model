@@ -27,9 +27,5 @@ Please refer to the link references  in the Visualization_Storyboard_Segment_3_S
 * https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_Dashboard/ACCURACY?publish=yes
 * https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_New_Dataset_Medical_Conditions_Count/Medical_Conditions_Count?publish=yes
 * https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_New_Dataset_Covid_vs_NonCovid_Count/CovidVsNonCovid?publish=yes
-* https://public.tableau.com/profile/stuti.budhwar#!/vizhome/LossPerEpoch_Model_1_to_9/MODEL1-Loss?publish=yes
-* https://public.tableau.com/profile/stuti.budhwar#!/vizhome/AccuracyPerEpoch_Model_1_to_9/MODEL1-Accuracy?publish=yes
-* https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Loss_from_Model1_to_Model9/Loss-Model1to9?publish=yes
-* https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Accuracy_from_Model1_to_Model9/Accuracy-Model1to9?publish=yes
 
 
