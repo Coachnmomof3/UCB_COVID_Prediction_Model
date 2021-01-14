@@ -143,4 +143,4 @@ After trying many data augmentation combinations, different architectures and tr
 
 # Demo
 The following demo was deployed using Google Colab and Ngrok. The trained VGG16 model was uploaded to Google Drive and used to predict images using a web interface deployed using Ngrok.
-![](Resources\demo.gif)
+![](Resources/demo.gif)
