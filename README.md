@@ -127,9 +127,9 @@ Two more models were trained, a simplified version of the previous ResNet50, and
 |Model     |Architecture                                  |Performance                            | Confusion Matrix                   |
 |:--------:|:--------------------------------------------:|:-------------------------------------:|:----------------------------------:|
 |VGG16 2 |![](Resources/VGG16_model2/architecture.png)  |![](Resources/VGG16_model2/score.png)    |![](Resources/VGG16_model2/conf.png)|
-|ResNet50|![](Resources/ResNet50_model2/architecture.png)|![](Resources/ResNet50_model2/score.png)|![](Resources/ResNet50_model2/conf.png)| 
+|ResNet50|![](Resources/ResNet50_model2/architecture.png)|![](Resources/ResNet50_model2/score.png)|![](Resources/ResNet50_model2/conf.png)|
 
-# Results
+# Results 
 ## Week 1
 As can be seen, I got terrible results for this models, so we decided that for the next weeks we will be working on improving the dataset and optimizing the models to obtain better results.
 This models are just the beggining and sets us on a good path towards developing more robust models and datasets.
