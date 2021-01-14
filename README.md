@@ -140,3 +140,7 @@ The most important insight is provided by the confusion matrix which shows that 
 
 ## Week 3 and 4
 After trying many data augmentation combinations, different architectures and training the models for 100 epochs instead of 50, we did not get better scores, but we had a big breakthrough in understanding why the accuracy was not improving. The likelihood of each column represent different classes for each model. For example, for the VGG16_model the labels for each column are COVID-19, Viral_Pneumonia and NORMAL while for the ResNet50, they are COVID-19, NORMAL and Viral_Pneumonia. Another important aspect is the fact that the validation accuracy score fluctuates randomly during the training. This is due to the class ratio between the validation minibatches. Meaning that if a validation batch has a higher ratio of a missclassified class, the validation accuracy score will decrease. So after about 11 to 14 epochs, the validation score was not improving, even though the training score was. For future iterations, we should try unfreezing the last layers of the transfer learning models.
+
+# Demo
+The following demo was deployed using Google Colab and Ngrok. The trained VGG16 model was uploaded to Google Drive and used to predict images using a web interface deployed using Ngrok.
+![](Resources\demo.gif)
