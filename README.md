@@ -1,6 +1,10 @@
 # UCB_COVID_Prediction_Model
-Final Project
-
+Final Project   
+                                                            <p align="center">
+<img width="753" alt="Screen Shot 2021-01-15 at 9 11 40 AM" src="https://user-images.githubusercontent.com/67808057/104757314-c2d91800-5711-11eb-86ac-9b3b530c6767.png">
+  
+                          Covid19                     Normal                          Viral_Pneumonia
+                                      
 # Overview 
 Our project came from a collective effort in determining that we want to do some analysis on COVID-19. 
 With further research we came up with this Chest X-Ray image dataset that has multiple biological issues along with COVID-19.
@@ -156,7 +160,7 @@ datagen= ImageDataGenerator(rescale=1/255,validation_split=.3,rotation_range=20,
                 subset="training",
                 class_mode="categorical", 
                 classes= ["COVID19", "NORMAL","Viral_Pneumonia"],
-                shuffle=True, seed=30)
+                shuffle=False, seed=30)
 
 
 datagen2=ImageDataGenerator(rescale=1/255,validation_split=.3,
@@ -170,12 +174,12 @@ datagen2=ImageDataGenerator(rescale=1/255,validation_split=.3,
                 target_size=(200,200),
                 batch_size=batch_size,
                 classes= ["COVID19", "NORMAL","Viral_Pneumonia"],
-                class_mode="categorical", subset="validation", shuffle=True, seed=30)
+                class_mode="categorical", subset="validation", shuffle=False, seed=30)
                 
-I decided on a 70/30 split to analyze as a team to start for this model. We used the function image_dataset_from_directory() then include all the rest of the inputs as needed.I began to use photo augemntation for training to use as a class balancer for the neural network to learn. You can look at what inputs I did with the ImageDataGenerator().
+I decided on a 70/30 split to analyze as a team to start for this model. We used the function image_dataset_from_directory() then include all the rest of the inputs as needed.I began to use photo augemntation for training to use as a class balancer for the neural network to learn. You can look at what inputs I did with the ImageDataGenerator(). But notice how on weeks 3/4 i used shuffle= False. This was giving our team lots of trouble with our predictions for the final table join. Setting Shuffle=False we were now able to correctly predict individual photos.
 
 
-# Model
+# Models
 
 ### Week 1
 The model I created was very simple and basic for a start. I simply wanted to create a basic neural network without any transfer learning involved to make sure my data was being imported correctly. 
@@ -199,10 +203,12 @@ My second transfer learning model was the ResNet50 model which gave me the best 
 I began by making one base model by my own creation which kept improving over time. This base model I made was 5 layers but this time I used increasing neurons from 16, 32, 64, 128, back to 64 then I finished off with a flatten and the dense layers with the classes. These base models we not learning as a proper machine learning algorithm due to the fact that our training set had a lower accuracy than our validation. This means that our model was underfitted so we did not pursure these in spite of the great scores. 
 
 **Transfer Learning Models**
-Unsatisfied by my results from my base models, I tried to build on top of what I had already made. I began with VGG16 transfer learning model pretrained for image datasets. On top of the VGG16 Model I added another dense layer for the number of classes and flattened the images.WE continued by using various drouputs functions on VGG16 and adding more complexity but we still saw no improvement in our scores. But it seemed that the best results for these models was to keep it simple and barely add anything to it and just add the Dense layer with the class names.
+Unsatisfied by my results from my base models, I tried to build on top of what I had already made. I began with VGG16 transfer learning model pretrained for image datasets. On top of the VGG16 Model I added another dense layer for the number of classes and flattened the images.We continued by using various drouputs functions on VGG16 and adding more complexity but we still saw no improvement in our scores. But it seemed that the best results for these models was to keep it simple and barely add anything to it and just add the Dense layer with the class names.
 
 
 My second transfer learning model was the ResNet50 model gave similar results so far out of all my models. I did the same with ResNet where i only added a Dense layer with the number of classes and to flatten the images. We again added more complexity just as with VGG16 but again we saw little improvement on these models so we decided to keep it simple because it was giving the best results.
+
+With my tranfer learning models I used another parameter called callback which allowed me to have EarlyStopping which in entails that our model be stopped when essentially there is no improvement in this case "val_loss". This is what led me to have only 22 epochs for our final model.
 
 # Results
 
@@ -276,16 +282,6 @@ Validation:
         Loss=0.1820759922
         Accuracy=0.9359999895
         
-**VGG_16 MODEL**
-
-Training:
-        Loss=0.1469199546
-        Accuracy=0.9499760199
-         
-Validation:
-        Loss=0.3281681743
-        Accuracy=0.8802880001
-        
 **ResNet MODEL**
 
 Training:
@@ -295,7 +291,37 @@ Training:
 Validation:
         Loss=0.4181249711
         Accuracy=0.8417360008
+
         
+**VGG_16 MODEL- FINAL MODEL PROPOSED**
+
+**Training:**
+        Loss=0.2025
+        Accuracy=0.9356
+         
+**Validation:**
+        Loss=0.3186
+        Accuracy=0.8736
         
-        
- We are still doing our analysis on which model to chose as our final but with this imformation it seems as though VGG_16 has the best results and will be continuing with this in the future!
+<img width="329" alt="Screen Shot 2021-01-15 at 8 54 49 AM" src="https://user-images.githubusercontent.com/67808057/104755722-ab992b00-570f-11eb-95d2-76b5dfc45747.png">
+
+
+
+<img width="439" alt="Screen Shot 2021-01-11 at 10 29 21 PM" src="https://user-images.githubusercontent.com/67808057/104755828-d3888e80-570f-11eb-91a9-73a198d6bded.png">
+
+
+**Confusion Matrix of Final Model**
+
+
+<img width="757" alt="Screen Shot 2021-01-11 at 10 55 00 PM" src="https://user-images.githubusercontent.com/67808057/104756288-7b9e5780-5710-11eb-941e-bdac39f95fe8.png">
+
+Here we can see that we had a problem with our Normal and Viral_Pneumonia classes and it was our last hurdle before getting to that above 90% validation accuracy score and minimal validation loss which is most important! In the future we would have individually preprocess that Virual_Pneumonia class for more accurate results. Overall we were satisfied with the recall (sensitvity) of our Covid19 and Normal classes thus this led to a higher average.
+
+
+As a reminder for looking at this confusion matrix: 
+
+**Precision** answers the question, “When it predicts the positive result, how often is it correct?”
+  
+**Recall** answers the question, “When it is actually the positive result, how often does it predict correctly?”
+
+My branch has all the information needed to look into this final model if desired!
