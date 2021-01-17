@@ -2,15 +2,15 @@
 #### Self- Assessment: Final Project
 Over the tenure of the Final project, due to my love for analyzing large data sets using statistical & analytical knowledge to understand data trends, generate business insights and forecast outcomes using visualization techniques, I took up the analysis and visualizations for the project. It gave me an opportunity to be a part of Machine Learning strategies in the project, and analyze meticulously results for every model, leading to an evolved better next model finally arriving at the best model.
 #### Challenges and Solutions: 
-Despite having a lot to analyze and relatively lesser scope for visualize for this project, I stretched myself to work on some advanced tableau features like animations for better representation of data/results. 
-Solution: The challenge turned out to be an opportunity to learn advanced tableau techniques as animation/parameters and work in depth on better representation of results for the convenience/easy understanding of the audience.
-Another challenge was to consolidate all the results of the machine learning models for a meticulous analysis since two of the team mates were working on ML part and their results and data representation was quite different.
-Solution: There can be a template that could be shared with the whole team showing the best way of data representation and result for consistence and better analysis.
+* Despite having a lot to analyze and relatively lesser scope for visualize for this project, I stretched myself to work on some advanced tableau features like animations for better representation of data/results. 
+* Solution: The challenge turned out to be an opportunity to learn advanced tableau techniques as animation/parameters and work in depth on better representation of results for the convenience/easy understanding of the audience.
+* Another challenge was to consolidate all the results of the machine learning models for a meticulous analysis since two of the team mates were working on ML part and their results and data representation was quite different.
+* Solution: There can be a template that could be shared with the whole team showing the best way of data representation and result for consistence and better analysis.
 #### Contribution to other roles of project:
-With our exceptional data set, which was images of frontal chest X-rays of patients, the journey of evolving of our data set, tools and technology was an ongoing process through the project which we were all a apart of as a team.
-Other than my area of analysis and visualizations using Tableau, I was a part of working on schemas for the data base tables and how they would be joined for the purpose of best representation of our data (image dataset).
-I helped consolidating all machine learning model data in terms of model details, architecture, history files (accuracy and loss per epoch).
-I helped with presentations of our project in different segments.
+* With our exceptional data set, which was images of frontal chest X-rays of patients, the journey of evolving of our data set, tools and technology was an ongoing process through the project which we were all a apart of as a team.
+* Other than my area of analysis and visualizations using Tableau, I was a part of working on schemas for the data base tables and how they would be joined for the purpose of best representation of our data (image dataset).
+* I helped consolidating all machine learning model data in terms of model details, architecture, history files (accuracy and loss per epoch).
+* I helped with presentations of our project in different segments.
 #### Self-Assessment: Bootcamp program:
 Even before pursuing this Bootcamp, I had been working on perfecting my Tableau, advanced SQL and other Data Analytical/Business Intelligence skills. This program, increased my horizon in the fields of Data Analytics and Business Intelligence in a great way. I feel extremely grateful to out Professor and TAs for the kind of learning and support they extended during the complete program.
 
