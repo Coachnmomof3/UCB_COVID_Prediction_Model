@@ -1,5 +1,5 @@
 ## Self-Assessment
-Self- Assessment: Final Project
+#### Self- Assessment: Final Project
 Over the tenure of the Final project, due to my love for analyzing large data sets using statistical & analytical knowledge to understand data trends, generate business insights and forecast outcomes using visualization techniques, I took up the analysis and visualizations for the project. It gave me an opportunity to be a part of Machine Learning strategies in the project, and analyze meticulously results for every model, leading to an evolved better next model finally arriving at the best model.
 #### Challenges and Solutions: 
 Despite having a lot to analyze and relatively lesser scope for visualize for this project, I stretched myself to work on some advanced tableau features like animations for better representation of data/results. 
