@@ -16,9 +16,9 @@ CREATE TABLE original_image_data (
 
 CREATE Table final_img_results (
   file_name varchar, 
-  prdecited_likelihood_covid numeric,
-  prdecited_likelihood_pneumonia numeric,
-  prdecited_likelihood_no_finding numeric
+  predicted_covid numeric,
+	predicted_normal numeric, 
+	predicted_no_finding numeric
 	); 
 
  
