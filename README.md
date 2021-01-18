@@ -7,10 +7,7 @@ As the world grapples with multiple medical conditions, especially COVID-19, eve
 In the fight against these critical medical conditions, organizations have been quick to apply their machine learning expertise in several areas: scaling customer communications, understanding how they spread, and speeding up research and treatment. In this scenario, it is both relevant and useful to gain the knowledge of chest X-ray images to interpret and develop an AI-based approach to predict and recognize both COVID-19 and non Covid-19 diseases.
 
 ## Description of the source of data:
-This labeled datset consist of 3184 frontal chest X-ray images of COVID and non-COVID cases. The non-COVID case is Viral Pneumonia.
- 
-The complete dataset of 3184 images separated by three diffent clasification folders Covid19, Normal and Viral_Pneumonia; images can be found on the below link:
-
+This labeled datset consist of 3184 frontal chest X-ray images of COVID and non-COVID cases. The non-COVID case is Viral Pneumonia. The complete dataset of 3184 images separated by three diffent clasification folders Covid19, Normal and Viral_Pneumonia; images can be found on the below link:
 [imagedataset](https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/tree/main/Database)
 
 
