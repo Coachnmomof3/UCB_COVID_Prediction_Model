@@ -47,11 +47,8 @@ This would give physicians an edge and allow them to act with more confidence wh
 The images in the dataset are already augmented using the Augmentator Python library. We will use different methods from the imblearn python library to balance the dataset, including SMOTE, Cluster Centroid and SMOTEEN.
 
 ### **STEP 2: Database Storage:**
-*This pending finalization of storage container due to functionality and compatibility.
-
-![DatabaseDiagram](https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/blob/main/Resources/Prelim_Database_Diagram.png)
-
 Images are stored on local computers. There were 3 options tested AWS and Google Colab prior to this using local computer created very slow run times. 
+![DatabaseDiagram](https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/blob/main/Resources/Prelim_Database_Diagram.png)
 
 ### **STEP 3: Applying Machine Learning Model:**
 We'll be using the Tensorflow ML library to create a Multi-Class CNN classifier of different respiratory syndromes. We will try different pretrained models including VGG16, VGG19, ResNet18, ResNet50, SqueezeNet, DenseNet-121 and add layers at the end to adjust for our needs.
