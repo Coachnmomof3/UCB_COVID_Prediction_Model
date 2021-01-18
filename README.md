@@ -9,7 +9,7 @@ In the fight against these critical medical conditions, organizations have been 
 ## Description of the source of data:
 This labeled datset consist of 3184 frontal chest X-ray images of COVID and non-COVID cases. The non-COVID case is Viral Pneumonia. The complete dataset of 3184 images separated by three diffent clasification folders Covid19, Normal and Viral_Pneumonia; images can be found on the below link:
 
-[imagedataset Link](https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/tree/main/Database)
+[image dataset Link](https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/tree/main/Database)
 
 
 The 2 sources used to create this data set are:
@@ -46,7 +46,6 @@ The images in the dataset are already augmented using the Augmentator Python lib
 
 ### **STEP 2: Database Storage:**
 Images are stored on local computers. There were 3 options tested AWS and Google Colab prior to this using local computer created very slow run times. 
-![DatabaseDiagram](https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/blob/main/Resources/Prelim_Database_Diagram.png)
 
 ### **STEP 3: Applying Machine Learning Model:**
 We'll be using the Tensorflow ML library to create a Multi-Class CNN classifier of different respiratory syndromes. We will try different pretrained models including VGG16, VGG19, ResNet18, ResNet50, SqueezeNet, DenseNet-121 and add layers at the end to adjust for our needs.
@@ -212,7 +211,8 @@ Our database approach then will be to use databases to store model output, perfo
 
 Our intent is to take the data collected from the model performance and to display this using plotly to replicate the tensor flow playground visualization. I'm struggling with this but included my work so far under the viusalization folder. 
 
-I have also uploaded a PDF of preliminary database diagrams. 
+I have also uploaded a png of preliminary database diagrams. 
+![DatabaseDiagram](https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/blob/main/Resources/Prelim_Database_Diagram.png)
 
 ### Dashboard - Stuti Budwar
   * Detailed and meticulous performance analysis of each machine
