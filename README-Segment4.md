@@ -48,7 +48,7 @@ The images in the dataset are already augmented using the Augmentator Python lib
 ### **STEP 2: Database Storage:**
 *This pending finalization of storage container due to functionality and compatibility.
 
-[DatabaseDiagram](https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/blob/main/Resources/Prelim_Database_Diagram.pdf)
+![DatabaseDiagram](https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/blob/main/Resources/Prelim_Database_Diagram.pdf)
 
 Images are stored on local computers. There were 3 options tested AWS and Google Colab prior to this using local computer created very slow run times. 
 
@@ -56,13 +56,15 @@ Images are stored on local computers. There were 3 options tested AWS and Google
 We'll be using the Tensorflow ML library to create a Multi-Class CNN classifier of different respiratory syndromes. We will try different pretrained models including VGG16, VGG19, ResNet18, ResNet50, SqueezeNet, DenseNet-121 and add layers at the end to adjust for our needs.
 
 * Demo
-The following demo was deployed using Google Colab and Ngrok. The trained VGG16 model was uploaded to Google Drive and used to predict images using a web interface deployed using Ngrok. 
-[Demo](https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/blob/main/Resources/demo.gif)
+The following demo was deployed using Google Colab and Ngrok. The trained VGG16 model was uploaded to Google Drive and used to predict images using a web interface deployed using Ngrok.
+
+[Demo Link](https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/blob/main/Resources/demo.gif)
 
 
 ### **STEP 4: Dashboard: Tableau for visualization:**
 In addition to using a Flask template, we will integrate Tableau for a fully functioning and interactive dashboard. It will be published on the public tableau server. 
-[InteractiveDashboard](https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_Dashboard/ACCURACY?publish=yes)
+
+[Interactive Dashboard Link](https://public.tableau.com/profile/stuti.budhwar#!/vizhome/Covid_Prediction_Model_Dashboard/ACCURACY?publish=yes)
 
 
 ## Roles explanation and description
