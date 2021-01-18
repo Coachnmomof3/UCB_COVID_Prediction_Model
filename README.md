@@ -39,5 +39,12 @@ Our intent is to take the data collected from the model performance and to displ
 
 I have also uploaded a PDF of preliminary database diagrams. 
 
+### Third Deliverable
+Minimal requirements for the third deliverable for databse. 
+
+### Fourth Deliverable
+The database of covid data exists on AWS and can be used to visualize the results of our work. Our join, which joined original image data outcomes to their predicted outcomes, also exists on the database. 
+
+![Database Image](https://github.com/Coachnmomof3/UCB_COVID_Prediction_Model/blob/james_demott/Visualization/screenshots/Screen%20Shot%202021-01-17%20at%203.21.45%20PM.png)
 
 
